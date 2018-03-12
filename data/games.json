@@ -1,7 +1,7 @@
 {
   "base": "https://joeltroch.github.io/vtable/data/",
   "games": [{
-    "appid": 17505,
+    "appid": 17500,
     "name": "ZPS",
     "bins": [{
       "type": "Engine",
