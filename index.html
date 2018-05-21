@@ -141,7 +141,7 @@
         </Col>
 
       const startHelpText =
-        <span>Pick a <Icon type="steam" middle /> game or drop a <code>.so</code> file to start.</span>;
+        <span>Pick a <Icon type="steam" middle /> game or drop a <code>.so</code> file to start.<br/>WARNING: for an unknown reason, this tool seems to be working on Firefox only!</span>;
 
       const handleRestartButtonClick = (event) => {
         // TODO: This is a hack, find an alternative (some kind of state history?)
@@ -191,7 +191,8 @@
             {props.children}
           </div>
           <div className="text-muted text-lowercase" style={{ marginBottom: 20 }}>
-            Made with <Icon type="heart" middle size="50%" /> by <FooterLink href="https://limetech.io">asherkin</FooterLink> <Icon type="circle" middle size="33%" /> Powered by <FooterLink href="http://emscripten.org">Emscripten</FooterLink> & <FooterLink href="http://www.mr511.de/software/english.html">libelf</FooterLink><br/>
+            Original Tool Made with <Icon type="heart" middle size="50%" /> by <FooterLink href="https://limetech.io">asherkin</FooterLink> <Icon type="circle" middle size="33%" /> Powered by <FooterLink href="http://emscripten.org">Emscripten</FooterLink> & <FooterLink href="http://www.mr511.de/software/english.html">libelf</FooterLink><br/>
+            Modified for ZPS needs by <FooterLink href="https://github.com/JoelTroch/vtable">Joël "Shepard62FR" Troch</FooterLink><br/>
             <small><FooterLink href="https://github.com/asherkin/vtable">I am Free Software, Fork me on GitHub</FooterLink></small>
           </div>
         </div>;

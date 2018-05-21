@@ -2,7 +2,7 @@
   "base": "https://joeltroch.github.io/vtable/data/",
   "games": [{
     "appid": 17500,
-    "name": "ZPS",
+    "name": "ZPS 3.0.9",
     "bins": [{
       "type": "Engine",
       "path": "source/zps/bin/engine_srv.so"
